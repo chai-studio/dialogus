@@ -1,5 +1,8 @@
 ---
-## README.md for `dialogus`
+title: "Dialogus"
+date: 2025-07-29
+tags: [AI, reading, CHAI studio, education]
+---
 
 # Dialogus
 
