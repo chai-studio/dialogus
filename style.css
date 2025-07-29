@@ -1,0 +1,21 @@
+body {
+  font-family: serif;
+  background-color: #fdfdf5;
+  color: #333;
+  margin: 2rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+textarea, input[type='text'] {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+#chatBox {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff;
+}

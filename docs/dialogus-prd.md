@@ -1,0 +1,1 @@
+See full PRD in the ChatGPT canvas or project files.
