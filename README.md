@@ -4,11 +4,11 @@ date: 2025-07-29
 tags: [AI, reading, CHAI studio, education]
 ---
 
-# Dialogus
+# Dialogus 小书童
 
 **Dialogus** is a humanistic AI reading companion designed to guide students through deep, reflective, and dialogic engagement with course texts.
 
-Inspired by the traditions of Socratic questioning, Confucian self-cultivation, and Zhuangzi’s paradoxical insights, Dialogus supports learners as they:
+Inspired by the traditions of **Socratic questioning**, **Confucian self-cultivation**, and **Zhuangzi’s imaginative freedom**, Dialogus supports learners as they:
 
 - 🌱 Discover context and meaning before reading
 - 🧠 Receive adaptive questions that promote critical thinking
@@ -17,39 +17,69 @@ Inspired by the traditions of Socratic questioning, Confucian self-cultivation, 
 
 ---
 
-## Features (MVP)
-- Upload or paste course readings (PDF/text)
+## 🔍 Features (MVP)
+
+- Upload or paste course readings (PDF or plain text)
 - Personalized question prompts before, during, and after reading
-- Socratic-style dialogue with GPT-driven guidance
-- Save your learning history, highlight difficult passages
+- Socratic-style dialogue powered by GPT
+- Save your learning history and export your transcript
 
 ---
 
-## Coming Soon
-- **Kong Wen (空问)** Mode — Reflective, Zen-inspired questioning style
-- Scroll UI with parallel commentary pane
-- Instructor dashboard + knowledge tree integration
+## 🌿 Coming Soon
+
+- **Kong Wen (空问) Mode** — Zen-inspired reflective questioning style
+- Scroll-style UI with dual-pane reading and commentary
+- Instructor dashboard with prompt templates and knowledge tree
 
 ---
 
-## Getting Started
-1. Clone this repo
-2. Run `npm install` (or `pip install` depending on stack)
-3. Launch the dev server: `npm run dev` / `flask run`
+## 🚀 Getting Started
+
+1. Clone this repository
+2. *(Optional for MVP)* Add your OpenAI API key
+3. Open `index.html` in your browser to test locally
+
+If using Node/Python stack (future version):
+
+```bash
+npm install         # or pip install -r requirements.txt
+npm run dev         # or flask run
+```
 
 ---
 
-## License
-See [LICENSE](./LICENSE) for more details.
+## 🗂 Folder Structure
+
+```bash
+dialogus-mvp/
+├── index.html              # Main HTML interface
+├── style.css               # UI styling
+├── main.js                 # Core dialog logic (simulated GPT for now)
+├── prompts/
+│   └── default_prompt.md   # Default system prompt for GPT
+├── config/
+│   └── course_config.json  # Instructor-defined teaching context
+├── docs/
+│   └── dialogus-prd.md     # Full Product Requirements Document (PRD)
+├── assets/
+│   └── images/             # UI assets (optional)
+└── .gitattributes          # Cross-platform line ending config
+```
 
 ---
 
-Made with 💡 by CHAI Studio — where ancient scrolls meet future schools
+## 🌐 Live Demo
 
+> Coming soon via GitHub Pages
 
 ---
-## LICENSE (MIT)
 
+## 📄 License
+
+This project is licensed under the MIT License.
+
+```
 MIT License
 
 Copyright (c) 2025 CHAI Studio
@@ -71,3 +101,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+---
+
+🪶 Made with care by **CHAI Studio** — where ancient scrolls meet future schools.
