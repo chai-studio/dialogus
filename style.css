@@ -1,21 +1,39 @@
 body {
-  font-family: serif;
-  background-color: #fdfdf5;
+  font-family: Georgia, serif;
+  padding: 2em;
+  background: #f4f1ea;
   color: #333;
-  margin: 2rem;
 }
+
 .container {
   max-width: 600px;
-  margin: auto;
+  margin: 0 auto;
 }
-textarea, input[type='text'] {
+
+textarea {
   width: 100%;
-  margin: 0.5rem 0;
-}
-#chatBox {
+  height: 100px;
+  padding: 1em;
+  font-size: 1rem;
+  border-radius: 8px;
   border: 1px solid #ccc;
-  min-height: 200px;
-  margin: 1rem 0;
-  padding: 1rem;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 0.7em 1.5em;
+  background: #4a3f35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#response {
+  margin-top: 1.5em;
+  padding: 1em;
   background: #fff;
+  border-left: 4px solid #8c715b;
+  font-style: italic;
+  white-space: pre-wrap;
 }
